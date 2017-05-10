@@ -44,10 +44,5 @@ services:
      ports:
        - "8002:2368"
      restart: always
-     environment:
-       WORDPRESS_DB_HOST: mysql:3306
-       WORDPRESS_DB_NAME: wordpress
-       WORDPRESS_DB_USER: root
-       WORDPRESS_DB_PASSWORD: password
      volumes:
        - ./dockerdata/ghost:/var/lib/ghost
