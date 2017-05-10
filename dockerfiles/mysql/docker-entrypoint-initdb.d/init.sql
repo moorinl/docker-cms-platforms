@@ -1,0 +1,2 @@
+CREATE DATABASE drupal;
+CREATE DATABASE wordpress;
